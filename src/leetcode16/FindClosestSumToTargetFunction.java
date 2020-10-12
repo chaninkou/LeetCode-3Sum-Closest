@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class FindClosestSumToTargetFunction {
 	public int threeSumClosest(int[] nums, int target) {
-		// Sort the array to do stuff similar to linear search
+		// Sort in order to do linear search
         Arrays.sort(nums);
         
         int result = nums[0] + nums[1] + nums[nums.length - 1];
