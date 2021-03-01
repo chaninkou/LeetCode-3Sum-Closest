@@ -28,7 +28,8 @@ public class FindClosestSumToTargetFunction {
                         return sum;
                     }
                     
-                    // This is get the closest sum
+                    // Get the closest sum
+                    // sum-target should be smaller than result - target
                     if(Math.abs(sum - target) < Math.abs(result - target)){
                         result = sum;
                     }
